@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    float cm, inch;
+
+    // Convert cm to inch
+    printf("Enter length in cm: ");
+    scanf("%f", &cm);
+    inch = cm / 2.54;
+    printf("In inches: %.2f\n", inch);
+
+    // Convert inch to cm
+    printf("Enter length in inches: ");
+    scanf("%f", &inch);
+    cm = inch * 2.54;
+    printf("In cm: %.2f\n", cm);
+
+    return 0;
+}
